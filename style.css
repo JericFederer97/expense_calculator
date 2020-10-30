@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(29, 37, 53);
   color: rgb(190, 190, 190);
   display: flex;
   flex-direction: column;
@@ -18,6 +18,15 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
+}
+
+.main-title {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.main-title label span {
+  font-size: 2.5rem;
 }
 
 .container {
@@ -42,7 +51,7 @@ h4 {
 }
 
 .inc-exp-container {
-  background-color: rgb(59, 59, 59);
+  background-color: rgb(35, 50, 73);
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
@@ -78,10 +87,6 @@ label {
   display: inline-block;
   margin: 10px 0;
 }
-
-/* label span {
-  color: #ffc252;
-} */
 
 input[type='text'],
 input[type='number'] {
@@ -165,5 +170,5 @@ input[type='number'] {
 }
 
 footer {
-  margin-bottom: auto;
+  padding-bottom: 3rem;
 }
